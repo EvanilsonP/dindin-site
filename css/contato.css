@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    background-color: #2E948A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    padding: 20px 80px 26px 82px;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header ul li {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #2E948A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer img {
+    margin-left: 50px;
+}
+
+.button-1 {
+    width: 100%;
+    background-color: #419488;
+    color: #FFFFFF;
+    border-radius: 62px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.button-2 {
+    width: 100%;
+    background-color: #419488;
+    color: #FFFFFF;
+    border-radius: 62px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    padding: 5px;
+}
+
+.container-paragrafo {
+    color:#FFFFFF;
+    margin-right: 250px;
+}
+
+.container-button {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+#contato{
+    font-size: 25px;
+    color: #FF4081;
+    margin: 40px;
+    padding: 20px;
+    padding-left: 200px;
+}
+
+.formulario {
+    margin-left: 90px;
+    padding-bottom: 100px;
+}
+
+form input {
+    width: 450px;
+    padding: 5px 5px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: #686868;
+}
+
+form label {
+    display: block;
+    padding: 10px;
+}
+
+#mensagem {
+    height: 200px;
+    padding-bottom: 150px;
+}
+
+::placeholder {
+    padding-left: 20px;
+    border-radius: 7px;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.container-img {
+    padding-left: 80px;
+    position: relative;
+    bottom: 100px;
+}
+
+#form-button {
+    width: 25%;
+    background-color: #FF4081;
+    color: #FFFFFF;
+    border-radius: 62px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    padding: 8px 8px;
+    margin-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+
+    header ul {
+        font-size: 25px;
+        padding-left: 80px;
+    }
+    
+    .container-img {
+        display: none;
+    }
+
+    #contato{
+        font-size: 35px;
+        margin-left: 18px; 
+    }
+
+    #form-button {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+   ::placeholder {
+     font-size: 30px;
+   }
+
+   form input {
+    font-size: 40px;
+    margin-right: 100px;
+    padding: 25px;
+   }
+
+    .container-paragrafo {
+        position: relative;
+        left: 50px;
+        font-size: 25px;
+    }
+
+    .container-button {
+        position: relative;
+        right: 100px;
+      }
+    
+      .button1 {
+        font-size: 20px;
+    }
+    
+    .button-2 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 540px) { 
+
+    header {
+        display: block;
+    }
+
+    header img {
+        width: 250px;
+        position: relative;
+        right: 30px;
+    }
+
+    header ul {
+        font-size: 20px;
+        position: relative;
+        right: 39px;
+        top: 15px;
+    }
+
+    .container-img {
+        display: none;
+    }
+
+    #contato {
+        position: relative;
+        right: 160px;
+        top: 30px;
+        font-size: 20px;;
+    }
+
+    ::placeholder {
+        font-size: 20px;
+    }
+
+    #form-button {
+        width: 40%;
+        font-size: 20px;
+        position: relative;
+        right: 55px;
+    }
+
+    form input {
+        width: 300px;
+        position: relative;
+        right: 50px;
+
+        font-size: 25px;
+
+    }
+
+    footer {
+        display: block;
+    }
+
+    footer img {
+        width: 250px;
+    }
+
+    .container-paragrafo {
+        display: flex;
+        position: relative;
+        left: 80px;
+        padding-top: 20px;
+        font-size: 25px;
+    }
+
+    .container-paragrafo p {
+        padding: 10px;
+        position: relative;
+        right: 30px;
+    }
+
+    .container-button {
+        position: relative;
+        left: 50px;
+        padding-top: 30px;
+    }
+
+    .button-1, .button-2 {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    background-color: #2E948A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    padding: 20px 80px 26px 82px;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header ul li {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #2E948A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer img {
+    margin-left: 50px;
+}
+
+.button-1 {
+    width: 100%;
+    background-color: #419488;
+    color: #FFFFFF;
+    border-radius: 62px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+.button-2 {
+    width: 100%;
+    background-color: #419488;
+    color: #FFFFFF;
+    border-radius: 62px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.container-paragrafo {
+    color:#FFFFFF;
+    margin-right: 250px;
+}
+
+.container-button {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+section {
+    position: relative;
+    right: 50px;
+
+    display: flex;
+    margin-left: 120px;
+    margin-top: 50px;
+    padding: 30px;
+    box-shadow: 0px 10px 10px -10px #888;
+
+}
+
+section button {
+    width: 20%;
+    background-color: #419488;
+    color: #FFFFFF;
+    border-radius: 62px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+section h1 {
+    color: #FF4081;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+section p {
+    padding-left: 40px;
+    color: #000000;
+}
+
+section img {
+    margin-right: 40px;
+}
+
+#info-inicio {
+    margin-left: 190px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+#info-inicio h1 {
+    color: #FF4081
+}
+
+#info-inicio p {
+    color: #555555;
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+
+    header ul {
+        font-size: 25px;
+        padding-left: 80px;
+    }
+
+    .contenido-principal {
+        display: block;
+    }
+
+    #info-inicio {
+        position: relative;
+        left: -50px;
+        font-size: 30px;
+    }
+
+    .contenido-principal img {
+        position: relative;
+        left: -50px;
+        width: 500px;
+    }
+
+    .contenido-principal h1 {
+        position: relative;
+        left: -85px;
+        font-size: 50px;
+    }
+
+    .contenido-principal p {
+        font-size: 30px;
+        position: relative;
+        left: -85px;
+    }
+
+    .contenido-principal button {
+        font-size: 22px;
+        position: relative;
+        left: -85px;
+    }
+
+   .container-button {
+        position: relative;
+        right: 50px;
+    }
+
+    .button1 {
+        font-size: 20px;
+    }
+
+    .button-2 {
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 360px) and (max-width: 540px) {
+
+    * {
+        width: 360px;
+    }
+    header {
+        display: block;
+    }
+
+    header img {
+        width: 250px;
+        position: relative;
+        right: 30px;
+    }
+
+    header ul {
+        font-size: 20px;
+        position: relative;
+        right: 79px;
+        top: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #info-inicio {
+       position: relative;
+       right: 120px;
+       font-size: 20px;
+    }
+
+    #info-inicio h1 {
+        position: relative;
+        left: 40px;
+    }
+
+    .contenido-principal {
+        position: relative;
+        right: 120px;
+    }
+
+    .contenido-principal h1, p {
+        position: relative;
+        right: 50px;
+    }
+
+    section {
+        display: block;
+        position: relative;
+        right: 50px;
+        font-size: 20px;
+    }
+
+    section h1 {
+        font-size: 30px;
+    }
+
+    section p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    section button {
+        width: 70%;
+        position: relative;
+        right: 15px;
+    }
+
+    section img {
+        width: 250px;
+        position: relative;
+        left: 25px;
+    }
+
+    footer {
+        display: block;
+    }
+
+    footer img {
+        width: 250px;
+        position: relative;
+        right: 10px;
+    }
+
+    .container-paragrafo {
+        display: flex;
+        position: relative;
+        left: 80px;
+        padding-top: 20px;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container-paragrafo p {
+        padding: 10px;
+        position: relative;
+        right: 79px;
+        width: 100%;
+    }
+
+    .container-button {
+        position: relative;
+        left: 40px;
+        padding-top: 50px;
+    }
+
+    .button-1, .button-2 {
+        font-size: 20px;
+        width: 80%;
+    }
+
+}

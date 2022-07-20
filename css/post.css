@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    background-color: #2E948A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    padding: 20px 80px 26px 82px;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header ul li {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #2E948A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer img {
+    margin-left: 50px;
+}
+
+.button-1 {
+    width: 100%;
+    background-color: #419488;
+    color: #FFFFFF;
+    border-radius: 62px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.button-2 {
+    width: 100%;
+    background-color: #419488;
+    color: #FFFFFF;
+    border-radius: 62px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    padding: 5px;
+}
+
+.container-paragrafo {
+    color:#FFFFFF;
+    margin-right: 250px;
+}
+
+.container-button {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.contenido-info {
+    text-align: center;
+}
+
+.contenido-info h1 {
+    font-size: 45px;
+    padding-bottom: 5px;
+    padding-top: 50px;
+    color: #FF4081;
+}
+
+.contenido-info p {
+    color: #9D9D9D;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+
+.contenedor-video {
+    position: relative;
+    left: 280px;
+    width: 800px;
+    height: 400px;
+    background-color: #C4C4C4;
+}
+
+.gran-descripcion p {
+    text-align: left;
+    margin-left: 150px;
+    padding-right: 150px;
+
+    color: #000000;
+}
+
+.mas-detalles {
+    text-align: left;
+    margin-left: 150px;
+    padding-right: 150px;
+}
+
+.mas-detalles p {
+    padding-top: 20px;
+}
+
+.mas-detalles h3 {
+    font-size: 30px;
+}
+
+.mas-detalles h3 {
+    color: #419488;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+section {
+    padding-bottom: 100px;
+}
+
+.coluna-info {
+    text-align: center;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 85px;
+    padding-bottom: 80px;
+}
+
+.curso-sugerencia {
+    position: relative;
+    top: 100px;
+    color: #FF4081;
+    text-align: center;
+    font-size: 30px;
+}
+
+.titulo {
+    color:#FF4081;
+    padding-bottom: 20px;
+}
+
+.paragrafo {
+    color: #000000;
+    padding-bottom: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.button {
+    width: 100%;
+    background-color: #FF4081;
+    color: #FFFFFF;
+    border-radius: 62px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    padding: 10px;
+    width: 50%;
+}
+
+.filho1-container,.filho2-container, .filho3-container {
+    padding-top: 80px;
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+
+    header ul {
+        font-size: 25px;
+        padding-left: 80px;
+    }
+
+    .contenedor-video {
+        position: relative;
+        left: 140px;
+        width: 500px;
+        height: 400px;
+    }
+
+    .gran-descripcion, .mas-detalles {
+        font-size: 30px;
+    }
+
+    .mas-detalles h3 {
+        font-size: 40px;
+    }
+
+  
+    .container-paragrafo {
+        position: relative;
+        left: 50px;
+        font-size: 25px;
+    }
+
+    .container-button {
+        position: relative;
+        right: 100px;
+      }
+    
+      .button1 {
+        font-size: 20px;
+    }
+    
+    .button-2 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 540px) { 
+
+    * {
+        width: 360px;
+     }
+
+    header {
+        display: block;
+        width: 360px;
+    }
+
+    header img {
+        width: 250px;
+        position: relative;
+        right: 30px;
+    }
+
+    header ul {
+        font-size: 20px;
+        position: relative;
+        right: 78px;
+        top: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+.contenedor-video {
+    display: none;
+}
+
+.coluna-info {
+    position: relative;
+    right: 40px;
+
+    display: block;
+    font-size: 20px;
+    text-align: left;
+    background-color: #F6F6F6;
+}
+
+.curso-sugerencia {
+    z-index: 500;
+}
+
+.coluna-info img {
+    width: 250px;
+    position: relative;
+    left: 20px;
+    padding-bottom: 20px;
+}
+
+.coluna-info button {
+    width: 70%;
+    font-size: 20px;
+    position: relative;
+    left: 5px;
+}
+
+.coluna-info h3{
+    font-size: 35px;
+    position: relative;
+    right: 30px;
+}
+
+.coluna-info p {
+    position: relative;
+    right: 30px;
+}
+
+.mas-detalles h3 {
+    text-align: left;
+    font-size: 35px;
+    width: 200px;
+    
+    position: relative;
+    right: 120px;
+}
+
+.mas-detalles p {
+    display: flex;
+    font-size: 20px;
+    position: relative;
+    right: 120px;
+    padding-right: 35px;
+
+}
+
+.paragrafo {
+    padding-right: 30px;
+}
+
+    footer {
+        display: block;
+        width: 360px;
+    }
+
+    footer img {
+        width: 250px;
+    }
+
+    .container-paragrafo {
+        display: flex;
+        position: relative;
+        left: 50px;
+        padding-top: 20px;
+        font-size: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container-paragrafo p {
+        position: relative;
+        right: 40px;
+        width: 100%;
+    }
+
+    .container-button {
+        position: relative;
+        left: 10px;
+        padding-top: 30px;
+        font-size: 10px;
+    }
+
+    .button-1, .button-2 {
+        font-size: 20px;
+        width: 80%;
+        position: relative;
+        left: 50px;
+    }
+}
