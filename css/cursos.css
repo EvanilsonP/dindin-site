@@ -194,6 +194,7 @@ section img {
     * {
         width: 360px;
     }
+
     header {
         display: block;
     }
@@ -211,22 +212,30 @@ section img {
         top: 15px;
         padding-left: 20px;
         padding-right: 20px;
+        width: 170%;
     }
 
     #info-inicio {
        position: relative;
        right: 120px;
        font-size: 20px;
+       width: 79%;
     }
 
     #info-inicio h1 {
         position: relative;
         left: 40px;
+        width: 80%;
+    }
+
+    #info-inicio p {
+        width: 110%;
     }
 
     .contenido-principal {
         position: relative;
         right: 120px;
+        width: 95%;
     }
 
     .contenido-principal h1, p {
@@ -275,11 +284,12 @@ section img {
     .container-paragrafo {
         display: flex;
         position: relative;
-        left: 80px;
+        left: 125px;
         padding-top: 20px;
         font-size: 20px;
         padding-left: 20px;
         padding-right: 20px;
+        width: 50%;
     }
 
     .container-paragrafo p {
@@ -293,11 +303,14 @@ section img {
         position: relative;
         left: 40px;
         padding-top: 50px;
+        width: 86%;
     }
 
-    .button-1, .button-2 {
-        font-size: 20px;
+    .button-1 {
         width: 80%;
     }
 
+    .button-2 {
+        width: 93%;
+    }
 }

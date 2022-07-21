@@ -370,9 +370,22 @@ section div button {
     }
 
     .info-init {
-        text-align: center;
         position: relative;
-        left: 68px;
+        left: 5px;
+        bottom: 50px;
+    }
+
+    .info-init h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .info-init p {
+        font-size: 20px;
+    }
+
+    .info-init button {
+        width: 100px;
     }
 
     #button-banner {
@@ -404,6 +417,7 @@ section div button {
 
     .pai-sobrenos {
         display: block;
+        width: 90%;
     }
 
     .filho-sobrenos img {
@@ -414,6 +428,7 @@ section div button {
     .filho-sobrenos {
         position: relative;
         right: 150px;
+        width: 80%;
     }
 
     .filho-sobrenos p {
@@ -471,6 +486,7 @@ section div button {
         left: 80px;
         padding-top: 20px;
         font-size: 25px;
+        width: 60%;
     }
 
     .container-paragrafo p {

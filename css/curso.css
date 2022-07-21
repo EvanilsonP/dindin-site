@@ -218,13 +218,13 @@ article h1 {
     header img {
         width: 250px;
         position: relative;
-        right: 30px;
+        right: 25px;
     }
 
     header ul {
         font-size: 20px;
         position: relative;
-        right: 39px;
+        right: 25px;
         top: 15px;
     }
 
@@ -239,6 +239,7 @@ article h1 {
 
     .container-principal p {
        padding: 15px;
+       line-height: 20px;
     }
 
     iframe {

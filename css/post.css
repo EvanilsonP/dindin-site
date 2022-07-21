@@ -244,6 +244,7 @@ section {
         top: 15px;
         padding-left: 20px;
         padding-right: 20px;
+        width: 170%;
     }
 
 .contenedor-video {
@@ -260,8 +261,10 @@ section {
     background-color: #F6F6F6;
 }
 
+
 .curso-sugerencia {
     z-index: 500;
+    width: 90%;
 }
 
 .coluna-info img {
@@ -282,18 +285,19 @@ section {
     font-size: 35px;
     position: relative;
     right: 30px;
+    width: 90%;
 }
 
 .coluna-info p {
     position: relative;
     right: 30px;
+    width: 90%;
 }
 
 .mas-detalles h3 {
     text-align: left;
     font-size: 35px;
     width: 200px;
-    
     position: relative;
     right: 120px;
 }
@@ -304,7 +308,7 @@ section {
     position: relative;
     right: 120px;
     padding-right: 35px;
-
+    width: 150%;
 }
 
 .paragrafo {
@@ -328,6 +332,7 @@ section {
         font-size: 25px;
         padding-left: 20px;
         padding-right: 20px;
+        width: 80%;
     }
 
     .container-paragrafo p {
@@ -337,8 +342,6 @@ section {
     }
 
     .container-button {
-        position: relative;
-        left: 10px;
         padding-top: 30px;
         font-size: 10px;
     }
